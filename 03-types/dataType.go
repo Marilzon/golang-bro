@@ -36,6 +36,6 @@ func main() {
 	var message string = "Hellow developer"
 	fmt.Println(reflect.TypeOf(message))
 
-	var errorMessage error = errors.New("Message of error!")
+	var errorMessage error = errors.New("Message of error!") // new instance of errors methods
 	fmt.Println(errorMessage)
 }
