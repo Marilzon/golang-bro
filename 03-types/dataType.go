@@ -16,6 +16,14 @@ func main() {
 
 	var realNumber uint = 10
 
+	var console = func(text string) string {
+		fmt.Println(text)
+		return text
+	}
+
+	console("console executado!")
+
+	fmt.Println(reflect.TypeOf(console))
 	fmt.Println(reflect.TypeOf(integer))
 	fmt.Println(reflect.TypeOf(integer8))
 	fmt.Println(reflect.TypeOf(integer16))
